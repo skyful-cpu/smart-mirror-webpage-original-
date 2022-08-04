@@ -1,0 +1,39 @@
+/* body 태그 : 검은 배경에 흰 글자 */
+body {
+    background-color: green;
+    color: white;
+}
+
+/* 시계를 표시하는 부분 관련 */
+.clock {
+    background: pink;
+    font-size: medium;
+    float: left;
+}
+
+/* 시계 클래스 중 시각을 표시하는 부분
+따로 글자 크기를 키운다 */
+#time {
+    font-size: 40px;
+}
+
+.icon {
+    background: rgb(255, 189, 89);
+    float: right;
+}
+
+#layout-top {
+    background:rgb(109, 189, 255)
+}
+
+.annyang-control {
+    background: yellow;
+    width: 120px;
+}
+
+.result {
+  position: absolute;
+  bottom: 100px;
+  background: blue;
+  font-size: x-large;
+}

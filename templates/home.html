@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Homepage</title>
+        <script src="{{ url_for('static', filename='annyang.js') }}"></script>
+		<script src="{{ url_for('static', filename='ajax_jquery_1.5_min.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="annyang-control">
+            <input id="annyang-start" type="button" value="mic on">
+            <input id="annyang-pause" type="button" value="mic off">
+        </div>
+        <div id="layout-top">
+            <div class="clock">
+                <p id="time"></p>
+                <p id="day"></p>
+                <p id="date"></p>
+            </div>
+            <div class="icon">
+                <p id="light">LIGHT</p>
+                <p id="boiler">BOILER</p>
+                <p id="fan">FAN</p>
+            </div>
+        </div>
+        <div class="result">
+            
+        </div>
+    </body>
+</html>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
